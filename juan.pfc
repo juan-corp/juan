@@ -1,0 +1,6 @@
+meminit
+
+write "juan."
+write end
+go line 3
+memdump
