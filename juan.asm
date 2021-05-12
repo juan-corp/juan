@@ -11,9 +11,3 @@ main:
     mov rdx, fikret_length
     syscall
     call main
-
-exit:
-    mov rax, 60
-    mov rdi, 0
-    syscall
-    ret
