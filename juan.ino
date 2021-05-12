@@ -3,5 +3,5 @@ void setup() {
 }
 
 void loop() {
-    Serial.println("juan");
+    Serial.println("juan.");
 }
