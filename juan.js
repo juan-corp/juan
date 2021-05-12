@@ -1,1 +1,1 @@
-while (true) console.log("juan");
+while (true) console.log("juan.");
