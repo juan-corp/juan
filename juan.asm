@@ -1,13 +1,13 @@
 section .data:
-    fikret: db "juan.",10
-    fikret_length equ $-fikret
+    juan: db "juan.",10
+    juan_len equ $-juan
 section .text.
     global main
 
 main:
     mov rax, 1
     mov rdi, 1
-    mov rsi, fikret
-    mov rdx, fikret_length
+    mov rsi, juan
+    mov rdx, juan_len
     syscall
     call main
