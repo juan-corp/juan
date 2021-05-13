@@ -1,1 +1,1 @@
-while (true) echo juan.
+while true; do echo "juan."; done
