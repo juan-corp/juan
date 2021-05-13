@@ -1,7 +1,7 @@
 section .data:
     juan: db "juan.",10
     juan_len equ $-juan
-section .text.
+section .text:
     global main
 
 main:
